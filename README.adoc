@@ -1,0 +1,21 @@
+= toot-fish
+
+This fish script is a plugin to "toot" to mastodon.
+
+== Setup
+
+- Access: https://<your-server-domain-is-here>/settings/applications/new
+- Run:
+
+[source,shell]
+----
+set -U TOOT_FISH_ACCESS_TOKEN <your access token>
+set -U TOOT_FISH_SERVER_DOMAIN <your server domain: (without "https://")>
+----
+
+- Install plugin:
+
+[source,shell]
+----
+fisher add github.com/mimikun/toot-fish
+----
